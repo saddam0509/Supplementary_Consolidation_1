@@ -2828,7 +2828,35 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
+                      <Value>Date: </Value>
+                      <Style>
+                        <FontFamily>Arial Narrow</FontFamily>
+                        <Format>d</Format>
+                      </Style>
+                    </TextRun>
+                    <TextRun>
                       <Value>=Parameters!DateFrom.Value</Value>
+                      <Style>
+                        <FontFamily>Arial Narrow</FontFamily>
+                        <Format>d</Format>
+                      </Style>
+                    </TextRun>
+                    <TextRun>
+                      <Value> to </Value>
+                      <Style>
+                        <FontFamily>Arial Narrow</FontFamily>
+                        <Format>d</Format>
+                      </Style>
+                    </TextRun>
+                    <TextRun>
+                      <Value>=Parameters!DateTo.Value</Value>
+                      <Style>
+                        <FontFamily>Arial Narrow</FontFamily>
+                        <Format>d</Format>
+                      </Style>
+                    </TextRun>
+                    <TextRun>
+                      <Value xml:space="preserve"> </Value>
                       <Style>
                         <FontFamily>Arial Narrow</FontFamily>
                         <Format>d</Format>
